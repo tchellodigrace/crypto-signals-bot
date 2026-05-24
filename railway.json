@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "dockerfile"
+  },
+  "deploy": {
+    "restartPolicyType": "ALWAYS",
+    "startCommand": "python main.py"
+  }
+}
